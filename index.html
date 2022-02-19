@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.css">
+     <script scr="js/resp.js"></script>
+    <title>Vehical Geo Tracking</title>
+</head>
+<body>
+    <nav class="navbar background">
+      <ul class="nav-list">
+          <div class="logo"><img src="img/VEHILOCK.jpg" alt"logo"></div>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+                   <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display= ' block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<!-- Button to open the modal -->
+<button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+      </ul>
+      <div class="rightNav">
+          <input type="text" name="searh" id="search">
+          <button class="btn-sm">Search</button>
+          
+      </div>
+    </nav>
+   <section class="background Firstsection" id="home">
+     <div class="firstbox-main">
+       <div class "CompanyName">
+         <p class="text-big">VEHILOCK</p>
+         <P class="text-small">Vehicle Geo-Tracking System</P>
+       </div>
+     </div>
+    <div class="secondbox-main">
+      <div class="firsthalf">
+      <p class="1text-big">EASILY INSTALLATION</p>
+    </div>
+    <div class="firsthalf">
+      <p class="1text-big">REAL TIME TRACKING</p>
+    </div>
+    <div class="firsthalf">
+      <p class="1text-big">24X7 CUSTOMER SUPPORT</p>
+    </div>
+      </div>
+    </div>
+   </section>
+   <section class="thirdbox-main" id="services">
+
+     <div class="row">
+
+    <div class="thumnail">
+       <img src="img/map.png" alt="map img">
+      <p class="sectionTag">True Real-time tracking</p>
+     <p class="sectionSubTag">Get real time data and 
+       performance metrics of your vehicles, wherever they may be
+       Access your fleet positions with real-time GPS tracking, 24/7.
+        No software needed, web based console for mobile or desktop.</p>
+      </div>
+
+        <div class="thumnail">
+          <img src="img/parking.png" alt="lock img">
+         <p class="sectionTag">VEHICLE LOCK</p>
+        <p class="sectionSubTag"> GPS tracker lets you remotely control your vehicles from
+           anywhere. Utilise remote locking and unlocking with our GPS tracker
+            online and gain absolute transparency.</p>
+          </div>
+
+            <div class="thumnail">
+            <img src="img/notification.png" alt="alert img">
+          <p class="sectionTag">LIVE ALERTS</p>
+              <p class="sectionSubTag">Get live over-speeding alerts, alerts on entry and exit points, monitor
+                 idling in real time, etc. Manage the services and maintenance 
+                 alerts with our GPS tracking device app.</p>
+                </div>
+              </div>
+                
+           <div class="row">
+              <div class="thumnail">
+              <img src="img/healthcare.png" alt="care img">
+            <p class="sectionTag">VEHICLE HEALTH</p>
+            <p class="sectionSubTag">Get diagnostic, mileage and health report of your vehicles with
+               our live GPS tracking device. Now you can worry less about 
+               your vehicle’s well-being and focus on a good driving experience. </p>
+              </div>
+
+               <div class="thumnail">
+                <img src="img/insurance.png" alt="data img">
+               <p class="sectionTag">Data securely stored</p>
+              <p class="sectionSubTag">Everything synced and stored
+                in our cloud. Drivings history with stats accessible directly on world map </p>    
+              </div>
+
+              <div class="thumnail">
+                <img src="img/documents.png" alt="document img">
+                <p class="sectionTag">document</p>
+              <p class="sectionSubTag">Everything synced and stored
+                in our cloud. Drivings a history with stats accessible directly on world map </p>
+              </div>
+        </div>
+   </section>
+
+   <section class="fourthsection" id="about">
+    <div class="About-main">
+        <h1 class="about-text-big">About Us:-</h1>
+        <P class="about-text-small">Vehilock special disigned for the family safety purpose and track location all vour vehicle.
+          A vehicle tracking system combines the use of automatic vehicle location in individual vehicles with software
+           that collects these fleet data for a comprehensive picture of vehicle locations. Modern vehicle tracking
+           systems commonly use GPS or GLONASS technology for locating the vehicle, but other types of automatic
+           vehicle location technology can also be used. Vehicle information can be viewed on electronic maps via 
+          the Internet or specialized software. Urban public transit authorities are an increasingly common user
+           of vehicle tracking systems, particularly in large cities</P>
+           <p class="about-text-small">A GPS tracking unit, geotracking unit, or simply tracker is a navigation device normally on a vehicle, asset,
+            person or animal that uses the Global Positioning System (GPS) to determine its movement and determine its WGS84
+            UTM geographic position (geotracking) to determine its location.[1]GPS tracking devices send special satellite 
+           signals that are processed by a receiver.
+           Locations are stored in the tracking unit or transmitted to an Internet-connected device using the cellular
+            network (GSM/GPRS/CDMA/LTE or SMS), radio, or satellite modem embedded in the unit or WiFi work worldwide.
+           </p>
+           <p class="about-text-small">Vehilock provides an account in cloud to every vehilock holder to access authentic documents/certificates
+            such as driving license, vehicle registration, Insurance and other document in digital format from the original
+            issuers of these certificates. It also provides 1GB storage space to each account to upload scanned 
+           copies of legacy documents.</p>
+     </div>
+  </section>
+
+  <section  class="Contact" id="contact">
+    <h1 class="text-center">Contact Us</h1>
+    <p class="connect-text">Connect No:-
+   +91 96xxxxxxx49</p>
+   <p class="connect-text">Mail Id:-
+    Vehilock2022@gmail.com</p>
+     <p class="connect-text">For Support:-
+   support@Vehilock.com></p>
+    <p class="connect-text">Office Address :-23, Sir M. Visvesvaraya Marg, Vallabh Nagar, Indore, Madhya Pradesh 452003
+      Shri Govindram Seksaria Institute of Technology and Science, address</p>
+    <div class="form">
+       <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+       <input class="form-input"type="text" name="phone" id="name" placeholder="Enter Your Phone">
+       <input class="form-input"type="text" name="phone" id="name" placeholder="Enter Your Email">
+       <textarea class="form-input"  name="text" id="text" cols="30" rows="10" placeholder="If any query please contact Us"></textarea>
+       <button class="btn btn-dark">Submit</button>
+    </div>
+    </section>
+
+    <footer class="background">
+      <p class="text-footer">
+      Copyright &copy; 2022 Vehicle :- All right reservd
+    </p>
+    </footer>
+     
+</body>
+</html>
